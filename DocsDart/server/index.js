@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require("mongoose");
 const PORT = process.env.PORT | 2001;
 const app = express();
-const DB = "mongodb+srv://shubh42003:1176harekrishna@docsdart.icziixf.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://shubhh42003:wolfmagicbeginnow1176@cluster0.hvoi9jj.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(DB).then(() => {
     console.log('connected to server');
